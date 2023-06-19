@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300&family=Nunito:wght@700&family=Roboto:wght@100;500&display=swap');
+
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: block;
+    background-color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#menu-principal{
+    display: block;
+    background-color: #00076b;
+}
+
+#menu-principal ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+#menu-principal ul .menu-item{
+    display: block;
+    color: #fff;
+    padding: .8em 1.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    transition: .3s;
+}
+
+#menu-principal ul .menu-item:hover{
+    background-color: #fff;
+    color: #00076b;
+}
+
+#conteudo{
+    display: block;
+    position: relative;
+}
+
+#apresentacao #imagem{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+#apresentacao #imagem img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+#apresentacao #titulo{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4%;
+    margin: 3% 4%;
+    font-size: 1.1em;
+}
+
+#infos figure img{
+    display: block;
+    border-radius: 4%;
+}
+
+#infos #texto h1{
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    color: #000ba8;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#infos #texto p{
+    text-align: justify;
+    margin-bottom: 2%;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+footer{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00076b;
+    color: #fff;
+    padding: 1% 0;
+}
+
+footer .elemento{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 2%;
+}
+
+#menu-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 6%;
+}
+
+#menu-rodape li{
+    display: block;
+    transition: .3s
+}
+
+#menu-rodape li:hover{
+    transform: scale(1.2);
+}

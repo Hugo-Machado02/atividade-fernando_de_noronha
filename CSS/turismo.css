@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300&family=Nunito:wght@700&family=Roboto:wght@100;500&display=swap');
+
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: block;
+    background-color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#principal{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu-principal{
+    display: block;
+    background-color: #00076b;
+}
+
+#menu-principal ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+#menu-principal ul .menu-item{
+    display: block;
+    color: #fff;
+    padding: .8em 1.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    transition: .3s;
+}
+
+#menu-principal ul .menu-item:hover{
+    background-color: #fff;
+    color: #00076b;
+}
+
+#imagem_inicio{
+    display: block;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+#imagem_inicio img{
+    display: block;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+#conteudo{
+    display: block;
+    position: relative;
+    padding: 1% 6% 2% 6%;
+}
+
+h2{
+    color: #00076b;
+    font-size: 1.8em;
+    margin-bottom: 1%;
+}
+
+p{
+    margin-bottom: 1%;
+}
+
+#conteudo #titulo{
+    display: block;
+    text-align: center;
+    font-size: 1.4em;
+    color: #00076b;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2%;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: .8em;
+}
+.esquerda{
+    float: left;
+    margin: 0 2% 1% 0;
+}
+.direita{
+    float: right;
+    margin: 0 0 1% 2%;
+}
+
+figure img{
+    border-radius: 1em;
+}
+
+figure em{
+    margin-top: 1%;
+    text-align: center;
+}
+
+#pontos_turisticos, #transporte, #cultura{
+    display: block;
+    position: relative;
+    margin-top: 4%;
+}
+
+#cultura #container{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: start;
+    justify-content: center;
+}
+
+#pontos_turisticos h2{
+    text-align: center;
+}
+
+#pontos_turisticos ul{
+    list-style: none;
+}
+
+#lista_turismo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.elementos h3{
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 1%;
+}
+
+#ver{
+    display: block;
+    position: relative;
+    background-color: #d4d4d4;
+    text-align: center;
+    color: #000;
+}
+
+#ver nav{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+}
+
+#ver nav ul{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    list-style: none;
+    text-decoration: none;
+}
+
+#ver nav ul a{
+    text-decoration: none;
+    color: #00076b;
+}
+
+footer{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00076b;
+    color: #fff;
+    padding: 1% 0;
+}
+
+footer .elemento{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 2%;
+}
+
+#menu-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 6%;
+}
+
+#menu-rodape li{
+    display: block;
+    transition: .3s
+}
+
+#menu-rodape li:hover{
+    transform: scale(1.2);
+}
